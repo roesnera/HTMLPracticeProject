@@ -3,7 +3,15 @@
 <html>
 
 <head>
+    <!-- meta data-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootsrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <title> jump-start-your-career-as-a-Jr Web Developer </title>
+
 </head>
 
 <body>
@@ -12,43 +20,106 @@
     <main>
 
         <section>
+            <!-- Navbar Component -->
+            <nav class="navbar navbar-expand-md navbar-light bg-primary">
+                <a class="navbar-brand" href="#">Web Development</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-            <h2>Top 3 Programming Languages for Web Development</h2>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Languages
+          </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">HTML</a>
+                                <a class="dropdown-item" href="#">CSS</a>
+                                <a class="dropdown-item" href="#">JavaScript</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <!-- End of navbar -->
 
-            <figure>
-                <img src="https://image.shutterstock.com/image-vector/web-development-coding-programming-responsive-600w-1449924503.jpg"
-                    alt="Web Developer tools" />
-                <figcaption>
-                    <h5>The image shows the basic Web developer languages.</h5>
-                </figcaption>
-            </figure>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <!-- Jumbotron -->
+                        <div class="jumbotron h-md-50 mx-2" style="background-image: url( https://image.shutterstock.com/z/stock-vector-mobile-website-development-technology-conceptual-illustration-design-of-internet-pages-of-layout-1738191146.jpg) background-size cover; background-repeat: no-repeat;">
+                            <div class="px-3 h-100 text-white" style="background-color: rgba(30, 6, 87, 0.4); overflow: auto">
+                                <h2>Top 3 Programming Languages for Web Development</h2>
+                            </div>
+                        </div>
+                        <!-- End of Jumbotron -->
+                    </div>
+                </div>
 
 
-            <article>
-                <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
-                <p>Below are examples of top 3 languages used in Web Development</p>
-                <ol>
-                    <li>HTML</li>
-                    <li>CSS </li>
-                    <li>JavaScript</li>
+                <!-- <figure>
+                    <img src="https://image.shutterstock.com/image-vector/web-development-coding-programming-responsive-600w-1449924503.jpg" alt="Web Developer tools" />
+                    <figcaption>
+                        <h5>The image shows the basic Web developer languages.</h5>
+                    </figcaption>
+                </figure> -->
 
-                </ol>
+                <figure id="slide" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://image.shutterstock.com/image-vector/web-development-coding-programming-responsive-600w-1449924503.jpg" alt="Web Developer tools">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://image.shutterstock.com/z/stock-vector-mobile-website-development-technology-conceptual-illustration-design-of-internet-pages-of-layout-1738191146.jpg" alt="Web Developer tools">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://image.shutterstock.com/z/stock-vector-adaptive-interface-design-developers-use-software-on-multiple-devices-cross-platform-software-d-1722820222.jpg" alt="Web Developer tools">
+                        </div>
+                        <a class="carousel-control-prev" href="#bootsNstrapExamples" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </figure>
+                <article>
+                    <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
+                    <p>Below are examples of top 3 languages used in Web Development</p>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS </li>
+                        <li>JavaScript</li>
+
+                    </ol>
 
 
-            </article>
+                </article>
         </section>
-        <section>
+        <section class=" container-fluid">
             <h2>Where Can You Learn this Languages?</h2>
             <figure>
-                <img src="https://image.shutterstock.com/image-photo/content-creativity-digital-graphic-layout-600w-267348416.jpg"
-                    alt="Teamwork" />
+                <img src="https://image.shutterstock.com/image-photo/content-creativity-digital-graphic-layout-600w-267348416.jpg" alt="Teamwork" />
                 <figcaption>
                     <h5>The image shows a team working together to design a web</h5>
                 </figcaption>
             </figure>
             <article>
-                <p>Joining Coding boot camps is the best way people learn those most used programming languages and
-                    start building responsive webpages! </p>
+                <p>Joining Coding boot camps is the best way people learn those most used programming languages and start building responsive webpages! </p>
                 <p> Want to know what's covered in those boot camps? Below there is a summary of what you will learn.
                 </p>
 
@@ -122,7 +193,11 @@
         </form>
     </footer>
 
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
